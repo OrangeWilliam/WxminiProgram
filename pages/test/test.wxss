@@ -1,0 +1,38 @@
+/* pages/test/test.wxss */
+.scroll-class view{
+  height: 50px;
+  width: 50px;
+}
+
+.scroll-class view:nth-child(1){
+  background-color: lightblue;
+}
+.scroll-class view:nth-child(2){
+  background-color: lightgreen;
+}
+.scroll-class view:nth-child(3){
+  background-color: lightyellow;
+}
+
+.scroll-class{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+swiper{
+  height: 100px;
+  display: block;
+}
+.item{
+  height: 100px;
+  background-color: lightgreen;
+}
+input{
+  margin: 10px;
+  padding: 5px;
+  background-color: lightgray;
+  border-radius: 5px;
+  border: 1px solid gray;
+}

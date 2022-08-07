@@ -1,0 +1,25 @@
+/* pages/upload/upload.wxss */
+.showAll{
+  display:flex;
+  justify-content:space-around;
+  flex-direction:column;
+  height: 800rpx;
+  align-items:center;
+}
+
+image{
+  border: 1px solid lightseagreen;
+  align-items: center;
+  background-color:#4ffca5a6;
+  width: 500rpx;
+  height: 500rpx;
+} 
+.imgButton button{
+  width: 300rpx;
+}
+.imgButton{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}

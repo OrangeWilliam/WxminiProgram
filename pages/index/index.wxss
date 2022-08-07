@@ -1,0 +1,31 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.index-button {
+
+}
+
+.usermotto button{
+  --background-color: #00b26b80;
+}
+
+.usermotto{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  height: 300px;
+}

@@ -1,0 +1,8 @@
+<!--pages/upload/upload.wxml-->
+<view class="showAll">
+  <image src="{{imgSrc}}" mode="aspectFit"></image>
+  <view class="imgButton">
+    <button type="warn" bindtap="getImg">重新上传</button>
+    <button type="primary" bindtap="upload">发送图片</button>
+  </view>
+</view>
